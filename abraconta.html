@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="abraconta.css">
+    <title>Formulário de cadastro</title>
+</head>
+
+<!--Caio Marques Egidio matricula 1230101678-->
+<!--Luis Gustavo de Menezes Eggenstein matricula 1230103469-->
+<body>
+    <reader>
+        <Div class="navbar">
+            <section>
+                <nav>
+                    <div class="logo">
+                        <span>
+                            <img class="icone-empresa" src="Logotipo de Finanças e Banco Moderno Gradiente Preto e Dourado (4) (1).png" alt="logo">
+                        </span>
+                    </div>
+                    
+                    <ul class="">
+                        <li><a class="textonavbar" href="index.html">Inicio</a></li>
+                        <li><a class="textonavbar" href="Investimentos.html">Investimentos</a></li>
+                        <li><a class="textonavbar" href="contato.html">Contato</a></li>
+                        <li><a class="textonavbar" href="abraconta.html">Abrir Conta</a></li>
+                        <li><a class="textonavbar" href="empresas.html">Empresas</a></li>
+                    </ul>
+                </nav>
+                </section>
+            </Div>
+    </reader>
+
+   
+
+    <main>
+    <div class="container123">
+        <div class="form-image">
+            <img src="undraw_shopping_re_hdd9.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmpassword"> Confirme sua Senha</label>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha" required>
+                    </div>
+                </div>
+
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender"> 
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender"> 
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender"> 
+                            <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender"> 
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    </main>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="titulofooter">Sobre nós</h3>
+              <ul class="classpalavrafooter">
+                <li><a class="fonte123" href="#">Sobre o GoldBank</a></li>
+                <li><a class="fonte123" href="#">Carreiras</a></li>
+                <li><a class="fonte123" href="#">Imprensa</a></li>
+                <li><a class="fonte123" href="#">Blog do GoldBank</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3 class="titulofooter">Produtos</h3>
+              <ul>
+                <li><a class="fonte123" href="#">Cartão de crédito</a></li>
+                <li><a class="fonte123" href="#">Conta digital</a></li>
+                <li><a class="fonte123" href="#">Empresas</a></li>
+                <li><a class="fonte123" href="#">Empréstimo     </a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3 class="titulofooter">Ajuda</h3>
+              <ul>
+                <li><a class="fonte123" href="#">Central de Ajuda</a></li>
+                <li><a class="fonte123" href="#">Perguntas frequentes</a></li>
+                <li><a class="fonte123" href="#">Termos de uso</a></li>
+                <li><a class="fonte123" href="#">Política de privacidade</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3 class="titulofooter">© 2023 GoldBank S.A <br> CNPJ  15.123.150/0007-75</h3>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+<!--Codigo JavaScript abaixo executa a seguinte função, se algum campo do formulario não estiver preenchido ou a opção de genero não estiever selecionada ou se as senhas não forem iguais em ambos os campos de senha ele emitiá um alerta -->
+
+      <script src="main2.js"></script>
+</body>
+</html>

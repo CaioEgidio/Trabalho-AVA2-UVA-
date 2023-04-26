@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Merriweather&family=Poppins:ital,wght@1,500&family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100;
+    background-image: url(Design\ sem\ nome.png);
+    background-size: 101%;
+    
+}
+
+.navbar {
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+    color: white;
+    animation: fade-up 0.5s;
+    
+}
+
+.textonavbar {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 30px;
+    font-family: 'Sarala', sans-serif;
+    transition: 0.6s;
+
+}
+
+nav ul li :hover {
+    background-color: rgb(128,128,128)
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+nav .logo {
+    font-size: 35px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    animation: fade-up 0.5s;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    color: white;
+    margin-right: 940px;
+}
+
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.icone-empresa {
+    width: 60px;
+    height: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    
+    
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+    }
+    
+    .rodape {
+        animation: fade-up 0.5s;
+    }
+    
+    .card {
+        width: 350px;
+        height: 200px;
+        margin: 0 auto;
+        background-color: #1C1C1C;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column
+
+        
+      }
+      
+      .card-body {
+        padding: 20px;
+        display: flex;
+       flex-direction: column;
+      }
+      
+      .card-body h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .card-body p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #2C74B3;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 50px;
+        font-size: 16px;
+        font-family: 'Sarala', sans-serif;
+        transition: background-color 0.2s ease;
+        margin-top: 10px;
+      }
+      
+      .button:hover {
+        background-color: #002B5B;
+      }
+      
+    
+    .cardsconteudo {
+        display: flex;
+        flex-direction: row;
+        animation: fade-up 0.5s;
+    }
+    
+    .cardfont {
+        font-family: 'Sarala', sans-serif;
+        color: #f4d35e;
+        
+    }
+
+    .cardfont1 {
+        font-family: 'Sarala', sans-serif;
+        color: white;
+    }
+    
+    .cardsespaço {
+        display: flex;
+        flex-direction: row;
+        animation: fade-up 0.5s;
+        padding-bottom: 50px;
+        
+    }
+
+    .tituloempresa {
+        font-family: 'Sarala', sans-serif;
+        color: white;
+        display: flex;
+        padding: 2%;
+        font-size: 30px;
+    }
+
+    footer {
+        background-color: #1C1C1C;
+        color: white;
+        padding: 40px 0;
+        font-size: 16px;
+        font-family: 'Sarala', sans-serif;
+        
+      }
+    
+      
+    
+      .container {
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+      
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .col {
+        flex: 1;
+        margin: 0 15px;
+    
+      }
+      
+      h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      ul li {
+        margin-bottom: 10px;
+      }
+      
+      ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      ul.social-media {
+        display: flex;
+      }
+      
+      ul.social-media li {
+        margin-right: 10px;
+      }
+      
+      ul.social-media li:last-child {
+        margin-right: 0;
+      }
+      
+      ul.social-media li a {
+        color: #fff;
+        font-size: 24px;
+      }
+      
+      .titulofooter {
+        color: white;
+      }
+    
+    
